@@ -1,0 +1,9 @@
+.DS_Store
+dist
+node_modules
+.vscode-test/
+*.vsix
+data
+scripts
+READMOI.md
+vsc-extension-quickstart.md

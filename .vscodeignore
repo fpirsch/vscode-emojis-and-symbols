@@ -1,0 +1,14 @@
+.vscode/**
+node_modules
+src/**
+data
+scripts
+.gitignore
+.yarnrc
+READMOI.md
+vsc-extension-quickstart.md
+tsconfig.json
+.eslintrc.json
+.prettierrc
+**/*.map
+**/*.ts

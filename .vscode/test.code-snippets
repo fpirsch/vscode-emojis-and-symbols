@@ -1,0 +1,10 @@
+{
+  "hello": {
+    "scope": "javascript,html",
+    "prefix": "hello",
+    "body": [
+      "$BLOCK_COMMENT_START Hello World ${1:another ${2:placeholder}} $BLOCK_COMMENT_END"
+    ],
+    "description": "un petit test de snippet. Par défaut c'est le nom du snippet qui est affiché"
+  }
+}
