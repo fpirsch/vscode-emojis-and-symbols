@@ -7,7 +7,6 @@ Adds suggestions and autocomplete for emojis and unicode symbols to VS Code.
 ## Features
 
 - Quickly insert emojis and symbols simply by typing `:`
-- Available in all language files
 - Search by character name, group name, description part
 - 3500+ emojis, 2000+ symbols
 
