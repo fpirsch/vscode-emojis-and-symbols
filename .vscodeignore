@@ -6,6 +6,7 @@ scripts
 .gitignore
 .yarnrc
 READMOI.md
+demo.md
 vsc-extension-quickstart.md
 tsconfig.json
 .eslintrc.json

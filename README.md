@@ -1,20 +1,35 @@
 # Emojis & Symbols
 
-Adds suggestions and autocomplete for emojis and symbols to VS Code.
+Adds suggestions and autocomplete for emojis and unicode symbols to VS Code.
 
-![Example](https://raw.githubusercontent.com/mattbierner/vscode-emojisense/master/media/example.gif)
+![Demo](media/demo.gif)
 
 ## Features
 
-- Quickly insert emojis and symbols using the `:smile:` syntax
-- Enable and control emoji completion settings per language (voir ses configs)
+- Quickly insert emojis and symbols simply by typing `:`
+- Available in all language files
+- Search by character name, group name, description part
 - 3500+ emojis, 2000+ symbols
 
-donner un peu les familles (emojis, math, arrows, whatever)
+## Examples
+
+Science: ± × ⋅ Δ² Σ ε π ₙ₊₁ ℂ ≈ ≤ √ ∞
+
+Arrows: ← ↑ ⇒ ⇔ ⟷
+
+Boxes: ╔══╕ ░░▒▒▒▓▓
+
+Braille: ⠕⠖⠗⠘⠙⠚
+
+Various other symbols and characters: ✂ ✓ ✗ ➀ 🂬, no-break space, soft hyphen
+
+Emojis: 🧁 😋 💊 🤮 🤷
+
+[Complete list](https://github.com/fpirsch/vscode-emojis-and-symbols/blob/main/src/emojis.ts)
 
 ## Credits
 
 - [Emojisense VSCode extension](https://github.com/mattbierner/vscode-emojisense/)
 - [gemoji (github emoji)](https://github.com/github/gemoji)
 - [Unicode Character Code Charts](https://unicode.org/charts/)
-- icon: [OpenMoji](https://openmoji.org)
+- extension icon: [OpenMoji](https://openmoji.org)
