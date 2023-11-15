@@ -1,6 +1,9 @@
 import * as vscode from 'vscode'
-import { provider } from './provider'
+import { completionProvider } from './completionProvider'
+import { hoverProvider } from './hoverProvider'
 
 export function activate(context: vscode.ExtensionContext) {
-  vscode.languages.registerCompletionItemProvider('*', provider, ':')
+  const completionDisposable = vscode.languages.registerCompletionItemProvider('*', completionProvider, ':')
+  const hoverDisposable = vscode.languages.registerHoverProvider('*', hoverProvider)
+  context.subscriptions.push(completionDisposable, hoverDisposable)
 }

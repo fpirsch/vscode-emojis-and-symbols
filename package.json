@@ -2,7 +2,7 @@
   "name": "emojisandsymbols",
   "displayName": "Emojis & Symbols",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "publisher": "fpirsch",
   "icon": "media/1F603_color.png",
   "engines": {

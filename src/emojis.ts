@@ -24150,36 +24150,6 @@ export const emojis = [
     alt: ['price price tag'],
   },
   {
-    emoji: '🏻',
-    name: 'Emoji Modifier Fitzpatrick Type-1-2',
-    group: ['Emoji modifiers'],
-    alt: [],
-  },
-  {
-    emoji: '🏼',
-    name: 'Emoji Modifier Fitzpatrick Type-3',
-    group: ['Emoji modifiers'],
-    alt: [],
-  },
-  {
-    emoji: '🏽',
-    name: 'Emoji Modifier Fitzpatrick Type-4',
-    group: ['Emoji modifiers'],
-    alt: [],
-  },
-  {
-    emoji: '🏾',
-    name: 'Emoji Modifier Fitzpatrick Type-5',
-    group: ['Emoji modifiers'],
-    alt: [],
-  },
-  {
-    emoji: '🏿',
-    name: 'Emoji Modifier Fitzpatrick Type-6',
-    group: ['Emoji modifiers'],
-    alt: [],
-  },
-  {
     emoji: '🐿',
     name: 'Chipmunk',
     group: ['Animal symbols'],
