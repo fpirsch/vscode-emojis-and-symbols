@@ -1,6 +1,6 @@
 import * as vscode from 'vscode'
 const { Hover, Position, Range } = vscode
-import { emojis } from './emojis'
+import { emojis, map } from './emojis'
 import { markdownDoc } from './markdownDoc'
 
 // Where each character can appear in each emoji or symbol
@@ -20,9 +20,7 @@ const rEnd = (range: number) => range & 0xf
 const rLength = (range: number) => rEnd(range) - rStart(range)
 Object.values(rangesByChar).forEach((ranges) => ranges.sort((a, b) => rLength(b) - rLength(a)))
 
-const map = new Map(emojis.map((item) => [item.emoji, item]))
-
-export const hoverProvider = {
+export default {
   provideHover(
     document: vscode.TextDocument,
     position: vscode.Position,

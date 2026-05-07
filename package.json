@@ -1,8 +1,8 @@
 {
   "name": "emojisandsymbols",
   "displayName": "Emojis & Symbols",
-  "description": "",
-  "version": "0.1.0",
+  "description": "Intellisense completion for emojis and various symbols",
+  "version": "0.2.0",
   "publisher": "fpirsch",
   "icon": "media/1F603_color.png",
   "engines": {
